@@ -1,0 +1,66 @@
+{
+    "admins": [
+        1111111111,
+        2222222222
+    ],
+    "assistent_config": {
+        "model": "gpt-4o",
+        "models": [
+            {
+                "id": "gpt-4o",
+                "title": "gpt-4o",
+                "created_at": "2025-04-09T04:50:13.671951"
+            },
+            {
+                "id": "gpt-4o-mini",
+                "title": "gpt-4o-mini",
+                "created_at": "2025-04-09T04:50:13.671972"
+            }
+        ],
+        "models_for_training": [
+            {
+                "id": "gpt-4o-2024-08-06",
+                "title": "gpt-4o-2024-08-06",
+                "created_at": "2025-04-09T04:50:13.671975"
+            },
+            {
+                "id": "gpt-4o-mini-2024-07-18",
+                "title": "gpt-4o-mini-2024-07-18",
+                "created_at": "2025-04-09T04:50:13.671977"
+            },
+            {
+                "id": "gpt-4-0613",
+                "title": "gpt-4-0613",
+                "created_at": "2025-04-09T04:50:13.671979"
+            },
+            {
+                "id": "gpt-3.5-turbo-0125",
+                "title": "gpt-3.5-turbo-0125",
+                "created_at": "2025-04-09T04:50:13.671981"
+            },
+            {
+                "id": "gpt-3.5-turbo-1106",
+                "title": "gpt-3.5-turbo-1106",
+                "created_at": "2025-04-09T04:50:13.671983"
+            },
+            {
+                "id": "gpt-3.5-turbo-0613",
+                "title": "gpt-3.5-turbo-0613",
+                "created_at": "2025-04-09T04:50:13.671984"
+            }
+        ],
+        "max_tokens": 1024,
+        "temperature": 0.7,
+        "max_attempts": 3,
+        "delay_seconds": 1
+    },
+    "assistent_system_prompt": "You are an Human support manager, working on the Company, talking with people in telegram messanger, Your purpose is to provide helpful, accurate, and friendly assistance to users who have questions about our company, products, and services with internet chat tone.\n\nGuidelines:\n- Always respond in Russian language, you can use emoji when it needed\n- Your responses should be precise and to the point, without unnecessary explanations or formalities. \n- Only include necessary information, and avoid adding anything extra.\n- Be concise but thorough in your responses.\n- Do not add phrases like \"If you have any further questions, please let me know,\" \"I'm here to help,\" \"Feel free to ask more questions,\" or anything similar in the everyting message at the end of your answers\n- If you don't know the answer to a question, say so instead of making up information.\n- Use company-specific terminology correctly.\n- Use company-information as your knowledge\n- Send information only with raw text, without formatting styles\n- If a user asks you who you are, you need to answer a support manager, not a virtual assistant, AI, robot, etc.\n\nCompany Information:\n{relevant_info}\n\nCurrent date: [{current_date}]",
+    "assistent_data": [],
+    "price_file": {
+        "file_path": "uploads/price.xlsm",
+        "file_id": "BQACAgIAAxkBAAIDHmjRO7hXkLAn8w2y0CZeAAGa_llOrwACeIYAAgxCiErAFgoR1-z0yzYE",
+        "file_link": "https://lifestylecentre.ru/prices/pastila_price_gold.xlsm",
+        "updated_at": "2025-09-22T12:06:16.746336"
+    },
+    "operator_chat_id": -1001999999999
+}
